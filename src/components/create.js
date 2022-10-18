@@ -59,7 +59,7 @@ export class Create extends React.Component {
 
     render() {
         return (
-            // submit form with methods to handle data 
+            // submit form with using on click methods to handle data 
             <form onSubmit={this.handleSubmit}>
                 
                 <div className="form-group">
