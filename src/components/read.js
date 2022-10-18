@@ -6,6 +6,7 @@ import axios from "axios";
 export class Read extends React.Component {
     //life cycle hook
     componentDidMount() {
+        //axios is a http client that we use to send and recieve http request with a promise 
          axios.get('https://jsonblob.com/api/jsonblob/1027219693823606784') //json data url
         .then((response)=>{
             this.setState({books:response.data}) //putting data response into state 
