@@ -5,6 +5,7 @@ import React from "react";
 export class Create extends React.Component {
 
     constructor(){
+        //parent constructor with super
         super();
         // binding event to method
         this.handleSubmit = this.handleSubmit.bind(this);
